@@ -13,8 +13,8 @@ Not included here:<br/>
 &nbsp;&nbsp;The input and output files.  They are described below, though.
   
 ## Setup
-In order to run the R script, you will need a suitable version of R
-and the dplyr library, and the input data set.
+In order to run the R script, you will need a suitable version of **R**
+and the **dplyr** library, and the input data set.
 
 ### R version
 Tested on R version: 3.1.2.  
@@ -47,12 +47,12 @@ However, I did not verify that the contents were identical.
 
 ## Running the Script
 See the comments at the top of `run_analysis.R` for detailed information on how to run the script.  
-In most cases, just cd to the 'UCI HAR Dataset' and run the script.
+In most cases, just cd to the `"UCI HAR Dataset"` directory and run the script.
 
 ## Output file
 The script will generate an output dataset in whitespace-delimited text form.  
-The dataset is written to the file `tidy_activity_recog_data.txt`  
+The dataset is written to the file `tidy_activity_recog_data.txt`
 in the `"UCI HAR Dataset"` directory.  
-See the file CodeBook.md (in the same directory as this README.md file)
+See the file `CodeBook.md` (in the same directory as this `README.md` file)
 for details on the output dataset.
 
